@@ -233,6 +233,23 @@ If you share budget + usage/exclusivity requirements, I can tailor the package.`
   >
     Email Quote
   </button>
+<button
+  onClick={() => {
+    window.location.href = "/pricing";
+  }}
+  style={{
+    padding: "10px 12px",
+    borderRadius: 12,
+    border: "1px solid #111",
+    background: "#111",
+    color: "#fff",
+    cursor: "pointer",
+    fontWeight: 700,
+  }}
+>
+  Upgrade to Pro
+</button>
+
 </div>
 
         <p style={{ marginTop: 10, color: "#666", fontSize: 12 }}>
