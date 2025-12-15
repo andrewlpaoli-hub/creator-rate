@@ -27,20 +27,24 @@ export default function Pricing() {
             <li>Quote history</li>
           </ul>
           <p style={{ fontWeight: 800, fontSize: 18 }}>$9 / month</p>
-          <button
-            disabled
-            style={{
-              marginTop: 8,
-              padding: "10px 12px",
-              borderRadius: 12,
-              border: "1px solid #ddd",
-              background: "#f3f3f3",
-              cursor: "not-allowed",
-              fontWeight: 700,
-            }}
-          >
-            Coming next: Checkout
-          </button>
+    
+           <a
+  href="https://buy.stripe.com/cNibJ0dqqbuj7TGec8a3u00"
+  style={{
+    display: "inline-block",
+    marginTop: 8,
+    padding: "10px 12px",
+    borderRadius: 12,
+    border: "1px solid #111",
+    background: "#111",
+    color: "#fff",
+    cursor: "pointer",
+    fontWeight: 800,
+    textDecoration: "none",
+  }}
+>
+  Start Pro ($9/mo)
+</a>
           <p style={{ marginTop: 8, color: "#666", fontSize: 12 }}>
             We’ll wire payments + unlocks in the next step.
           </p>
